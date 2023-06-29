@@ -111,6 +111,45 @@ p {
     text-decoration: none;
     text-transform: capitalize;
 }
-.food-txt{
+
+.food-txt {
     height: 400px;
+}
+
+.food-txt h2 {
+    font-size: 50px;
+}
+
+.titles {
+    text-align: left;
+}
+
+
+@media(max-width:576px) {
+    .first-page-h2 {
+        font-size: 30px;
+    }
+
+    .first-page-h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .food-txt {
+        text-align: center;
+        height: 350px;
+    }
+
+    .food-txt h2 {
+        font-size: 30px;
+    }
+    .titles{
+        text-align: center;
+    }
+    .launch-links{
+        display: block;
+    }
 }
