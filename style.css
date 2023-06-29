@@ -130,14 +130,18 @@ p {
         font-size: 30px;
     }
 
-    .first-page-h1 {
+    .first-page-h1 ,.second-page-h1{
         font-size: 35px;
     }
-
+    .scaled{
+        margin-bottom: 30px;
+    }
     h3 {
         font-size: 20px;
     }
-
+    #contact h2 ,#contact a{
+        font-size: 17px;
+    }
     .food-txt {
         text-align: center;
         height: 350px;
